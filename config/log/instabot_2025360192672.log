@@ -1,0 +1,12 @@
+2024-11-25 14:56:52,308 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2024-11-25 14:56:52,308 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\griff\anaconda3\Lib\site-packages\instabot\bot\bot.py
+2024-11-25 14:56:52,308 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2024-11-25 14:56:52,645 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2024-11-25 14:56:52,828 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2024-11-25 14:56:52,993 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2024-11-25 14:56:53,125 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2024-11-25 14:56:56,448 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2024-11-25 14:56:56,448 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"challenge_required","challenge":{"url":"https://i.instagram.com/challenge/AXF9AqE4E5wvl3t-VHQqYoh03aQxI4-9vNn4V5m0KmEHrl2g6H-qu8ayF885NVSkhgizi88/AfzNEkqfI9zRcWbz3c9zNKZm8wUB-V2qcMZXjPpogJK82-_Ao3mCmX78s70KI00U5U8P81F7vw0Kaw/","api_path":"/challenge/AXF9AqE4E5wvl3t-VHQqYoh03aQxI4-9vNn4V5m0KmEHrl2g6H-qu8ayF885NVSkhgizi88/AfzNEkqfI9zRcWbz3c9zNKZm8wUB-V2qcMZXjPpogJK82-_Ao3mCmX78s70KI00U5U8P81F7vw0Kaw/","hide_webview_header":true,"lock":true,"logout":false,"native_flow":true,"flow_render_type":0},"status":"fail","error_type":"checkpoint_challenge_required"}'
+2024-11-25 14:56:56,448 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2024-11-25 14:56:56,448 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: challenge_required
+2024-11-25 14:56:56,448 - instabot version: 0.117.0 (api) - INFO - Error type: checkpoint_challenge_required
