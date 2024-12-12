@@ -27,3 +27,10 @@ def scrape_facebook(username, password, target_url):
         browser.close()
 
         return posts_text
+
+if __name__ == "__main__":
+    username = "tbd"
+    password = "tbd"
+    target_url = "https://www.facebook.com/groups/specificgroup"  # Replace with your target URL
+
+    posts = scrape_facebook(username, password, target_url)
